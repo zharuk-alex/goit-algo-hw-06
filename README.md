@@ -3,19 +3,19 @@ pages_graph.py - graph init, visualisation
 
 tasks_1.py - graph analize
 
-| Metric                | Value                             |
-| --------------------- | --------------------------------- |
-| Total nodes           | 6                                 |
-| Total edges           | 7                                 |
-| Max degree centrality | index 0.6000000000000001          |
-| Path to '/contacts'   | ['index', 'about_us', 'contacts'] |
+| Metric                | Value                                 |
+| --------------------- | ------------------------------------- |
+| Total nodes           | 5                                     |
+| Total edges           | 9                                     |
+| Max degree centrality | ecommerce 1.5                         |
+| Path to top_product   | ['index', 'ecommerce', 'top_product'] |
 
 tasks_2.py - bfs & dfs
 
-| Algorithm | Path                                                 |
-| --------- | ---------------------------------------------------- |
-| bfs       | ecommerce, category_1, product_1, top_product, index |
-| dfs       | ecommerce, category_1, product_1, index, top_product |
+| Algorithm     | Path                                                 |
+| ------------- | ---------------------------------------------------- |
+| bfs_recursive | ecommerce, category_1, top_product, product_1, index |
+| dfs_recursive | ecommerce, category_1, product_1, index, top_product |
 
 Різниця в виводі пов'язана з тим, що алгоритми BFS та DFS у різний спосіб проходять по вершинам графу
 
